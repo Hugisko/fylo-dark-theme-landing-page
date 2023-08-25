@@ -4,4 +4,4 @@ export {default as Footer} from './footer/Footer';
 export {default as Header} from './header/Header';
 export {default as Hero} from './hero/Hero';
 export {default as Productivity} from './productivity/Productivity';
-export {default as Testimonials} from './Testimonials/Testimonials';
+export {default as Testimonials} from './testimonials/Testimonials';
