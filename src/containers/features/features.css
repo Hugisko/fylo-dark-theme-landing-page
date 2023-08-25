@@ -1,0 +1,16 @@
+.features__section {
+    margin-top: 4rem;
+    display: grid;
+    place-items: center;
+    margin-inline: auto;
+    gap: 5rem;
+    padding: 2rem;
+    max-width: 1200px;
+}
+
+@media (min-width: 900px) {
+    .features__section {
+        grid-template-columns: 1fr 1fr;
+        gap: 6rem 0;
+    }   
+}

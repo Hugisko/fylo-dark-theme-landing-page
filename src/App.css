@@ -1,0 +1,10 @@
+main {
+    padding-bottom: 15rem;
+    position: relative;
+}
+
+@media (min-width: 900px) {
+    main {
+        padding-bottom: 18rem;
+    } 
+}

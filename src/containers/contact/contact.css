@@ -1,0 +1,100 @@
+.contact__section {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    width: 90%;
+    transform: translateY(50%);
+    background-color: var(--Dark-Blue-intro-and-email-sign-up-background);
+    border-radius: 12px;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    max-width: 870px;
+}
+
+.contact__section h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+
+.contact__section form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.contact__section form > * {
+    width: 100%;
+}
+
+.form-field {
+    position: relative;
+}
+
+.form-field input {
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    width: 100%;
+}
+
+.error {
+    position: absolute;
+    bottom: -1.2rem;
+    left: 1rem;
+    color: var(--Light-Red-error);
+    font-size: 10px;
+}
+
+@media (min-width: 600px) {
+    .contact__section {
+        padding: 2.5rem 3rem;
+    }
+
+    .contact__section h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .contact__section {
+        padding-inline: 5rem;
+        width: 100%;
+        left: 50%;
+        transform: translate(-50%,50%);
+    }
+
+    .contact__section > p {
+        margin-inline: 2rem;
+    }
+
+    .contact__section h3 {
+        font-size: 2rem;
+    }
+
+    .contact__section form {
+        margin-top: 1rem;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .contact__section form .cta-btn {
+        width: 240px;
+    }
+
+    .form-field input {
+        padding-inline: 2rem;
+    }
+
+    .error {
+        font-size: 12px;
+        left: 2rem;
+    }
+}
+

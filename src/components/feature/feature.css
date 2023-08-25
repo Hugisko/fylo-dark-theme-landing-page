@@ -1,0 +1,17 @@
+.feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    max-width: 390px;
+}
+
+.feature__img {
+    margin-bottom: 1rem;
+}
+
+.feature h2 {
+    font-family: 'Raleway', sans-serif;
+}

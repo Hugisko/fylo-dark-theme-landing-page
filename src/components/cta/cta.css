@@ -1,0 +1,15 @@
+.cta-btn {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: var(--White);
+    background: linear-gradient(to right,var(--Cyan-inside-call-to-action-gradient),var(--Blue-inside-call-to-action-gradient));
+    padding: 0.8rem;
+    border: none;
+    border-radius: 50px;
+    width: 240px;
+    cursor: pointer;
+}
+
+.cta-btn:hover {
+    background: var(--Cyan-inside-call-to-action-gradient);
+}
