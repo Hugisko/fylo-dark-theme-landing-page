@@ -2,7 +2,7 @@
   "name": "fylo-dark-theme-landing-page",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://hugisko.github.io/fylo-dark-theme-landing-page",
+  "homepage": "https://Hugisko.github.io/fylo-dark-theme-landing-page",
   "type": "module",
   "scripts": {
     "dev": "vite",
