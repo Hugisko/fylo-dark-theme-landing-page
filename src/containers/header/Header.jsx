@@ -10,9 +10,9 @@ const Header = () => {
       </div>
       <nav className='header__nav'>
         <ul>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Sign in</a></li>
+          <li><a href="#" aria-label='feature-link'>Features</a></li>
+          <li><a href="#" aria-label='team-link'>Team</a></li>
+          <li><a href="#" aria-label='signin-link'>Sign in</a></li>
         </ul>
       </nav>
     </header>
